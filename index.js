@@ -19,10 +19,10 @@ SmartPlugAccessory.prototype.getPowerOn = function(callback) {
     var plugName = this.plugName
     axios({
         method: 'get',
-        url: "https://developer-api.seemelissa.com/v1/controllers/5CJ213423P5Y8",
+        url: "https://developer-api.seemelissa.com/v1/controllers/" + this.serial_number,
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 8f9bad8a25120b3b1402d40f7a09edd30ce7e3bd'
+            'Authorization': 'Bearer ' + this.access_token
         }
     }).then(function(response) {
         var controller = response.data.controller;
