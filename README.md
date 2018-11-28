@@ -1,0 +1,1 @@
+# homebridge-mclimate-smartplug

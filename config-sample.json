@@ -1,0 +1,23 @@
+{
+    "bridge": {
+        "name": "Homebridge2",
+        "username": "CC:22:3D:E3:CE:32",
+        "port": 51826,
+        "pin": "031-45-155"
+    },
+    
+    "description": "This has some fake accessories",
+
+    "accessories": [
+        {
+            "accessory":      "MClimate-SmartPlug",
+            "name":           "Smart Plug",
+            "plug_name":      "Plug 1",
+            "serial_number":  "5CJ213423P5Y8",
+            "access_token":   "5339f3253669a38abff505ee9db2acccadaa96b0"
+
+        }
+    ],
+
+    "platforms": []
+}
