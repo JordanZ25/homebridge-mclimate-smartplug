@@ -13,8 +13,9 @@
             "accessory":      "MClimate-SmartPlug",
             "name":           "Smart Plug",
             "plug_name":      "Plug 1",
-            "serial_number":  "5CJ213423P5Y8",
-            "access_token":   "5339f3253669a38abff505ee9db2acccadaa96b0"
+            "serial_number":  "",
+            "access_token":   "",
+            "refresh_token":   ""
 
         }
     ],
